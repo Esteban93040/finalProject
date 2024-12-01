@@ -1,0 +1,22 @@
+.container-navbar {
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombras */
+}
+
+.navbar {
+    background-color: #007bff; /* Color azul personalizado */
+}
+
+.navbar-brand img {
+    margin-right: 8px; /* Espaciado entre logo y texto */
+}
+
+.nav-link {
+    font-size: 16px;
+    margin-left: 15px; /* Espaciado entre enlaces */
+    color: white !important; /* Forzar texto blanco */
+}
+
+.nav-link:hover {
+    color: #1900ff !important; /* Efecto hover */
+}

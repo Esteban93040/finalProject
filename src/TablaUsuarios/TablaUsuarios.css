@@ -1,0 +1,70 @@
+.tabla-usuarios-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .formulario {
+    margin-bottom: 20px;
+  }
+  
+  .formulario input {
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(50% - 20px);
+  }
+  
+  .formulario button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .formulario button:hover {
+    background-color: #218838;
+  }
+  
+  .tabla-usuarios {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tabla-usuarios th,
+  .tabla-usuarios td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .tabla-usuarios th {
+    background-color: #f4f4f4;
+  }
+  
+  .sin-usuarios {
+    text-align: center;
+    color: #999;
+  }
+  
+  .btn-eliminar {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-eliminar:hover {
+    background-color: #c82333;
+  }
+  
